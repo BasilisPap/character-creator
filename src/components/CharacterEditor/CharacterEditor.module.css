@@ -7,7 +7,9 @@
 }
 
 .header {
+  background-color: rgba(255,0,0,0.15);
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +26,15 @@
 }
 
 .characterWrapper {
+  background-color: rgba(255,0,0,0.15);
+  position: fixed;
+  min-height: 500px;
+  top: 30px;
+  width: 35%;
+  right: 0;
 }
 
 .controlColumn {
+  background-color: rgba(255,0,0,0.15);
+  width: 50%;
 }
