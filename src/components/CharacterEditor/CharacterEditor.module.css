@@ -4,10 +4,10 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
-  background-color: rgba(255,0,0,0.15);
   padding-bottom: 64px;
   width: 65%;
 }
@@ -26,15 +26,22 @@
 }
 
 .characterWrapper {
-  background-color: rgba(255,0,0,0.15);
   position: fixed;
   min-height: 500px;
-  top: 30px;
+  top: 0;
   width: 35%;
   right: 0;
 }
 
 .controlColumn {
-  background-color: rgba(255,0,0,0.15);
   width: 50%;
+}
+
+.perspective {
+  background-color: hsl(195deg, 20%, 86%);
+  bottom: 0;
+  height: 40%;
+  left: 0;
+  position: fixed;
+  width: 100%;
 }

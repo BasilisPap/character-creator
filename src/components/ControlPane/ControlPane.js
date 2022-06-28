@@ -21,6 +21,8 @@ const ControlPane = ({
           {options.length} options
         </span>
       </h2>
+      <div className={styles.scrollrow}>
+
       <ButtonRow>
         {options.map(({ id, label, color, children }) => (
           <ToggleButton
@@ -34,6 +36,7 @@ const ControlPane = ({
           </ToggleButton>
         ))}
       </ButtonRow>
+      </div>
     </div>
   );
 };
